@@ -23,9 +23,9 @@ module.exports = function(app){
     //     res.sendFile(path.join(__dirname + '/../public/reserve.html'));
     // });
 
-    // If no matching route is found default to home
+    // If no matching route is found default to index.html
     app.use(function(req, res){
-        res.sendFile(path.join(__dirname + '/../public/home.html'));
+        res.sendFile(path.join(__dirname + '/../public/index.html'));
     });
 
 }
