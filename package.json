@@ -1,0 +1,29 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Node and Express friend app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waltdakind/FriendFinder.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "routing_examples"
+  ],
+  "author": "Walter Mattingly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waltdakind/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/waltdakind/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
+}
