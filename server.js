@@ -14,7 +14,7 @@ var path = require('path');
 // ==============================================================================
 
 var app = express(); // Tells node that we are creating an "express" server
-var PORT = process.env.PORT || 80; // Sets an initial port. We'll use this later in our listener
+var PORT = process.env.PORT || 3001; // Sets an initial port. We'll use this later in our listener
 
 // ==============================================================================
 // This lets us serve content from the 'public' folder 
